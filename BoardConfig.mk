@@ -41,3 +41,6 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
         product \
         vendor \
         odm
+
+## VINTF
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
