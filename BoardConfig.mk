@@ -22,7 +22,22 @@ include device/samsung/universal9611-common/BoardConfigCommon.mk
 -include vendor/samsung/a51/BoardConfigVendor.mk
 
 # OTA Asserts
-TARGET_OTA_ASSERT_DEVICE := a51,a51dd
+TARGET_OTA_ASSERT_DEVICE := a51,a51dd,a51nsxx
 
 # Kernel config
 TARGET_KERNEL_CONFIG := a51_defconfig
+
+## Partitions Sizes
+BOARD_BOOTIMAGE_PARTITION_SIZE := 61865984
+BOARD_DTBOIMG_PARTITION_SIZE := 8388608
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 71106560
+
+## Filesystem
+BOARD_SUPER_PARTITION_SIZE := 6836715520
+BOARD_SUPER_PARTITION_GROUPS := samsung_dynamic_partitions
+BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 6836715520
+BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
+        system \
+        product \
+        vendor \
+        odm
