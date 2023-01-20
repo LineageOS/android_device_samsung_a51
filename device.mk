@@ -29,3 +29,6 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# GNSS
+PRODUCT_PACKAGES += init.gps.rc
