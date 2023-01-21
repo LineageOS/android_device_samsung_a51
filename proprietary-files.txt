@@ -80,14 +80,11 @@ vendor/setfile_imx616.bin
 
 ## Camera
 vendor/lib/hw/camera.exynos9611.so
-vendor/lib/libacryl.so
-vendor/lib/libacryl_plugin_slsi_hdr10.so
 vendor/lib/libcsc.so
 vendor/lib/libexynoscamera3.so
 vendor/lib/libgiantmscl.so
 vendor/lib/libGrallocWrapper.so
 vendor/lib/libhwjpeg.so
-vendor/lib/libion_exynos.so
 vendor/lib/libsecnativefeature.so
 vendor/lib/libSEF.quram.so
 vendor/lib/libsensorlistener.so
@@ -101,9 +98,32 @@ vendor/lib64/libexynoscamera3.so
 vendor/lib64/libgiantmscl.so
 vendor/lib64/libGrallocWrapper.so
 vendor/lib64/libhwjpeg.so
-vendor/lib64/libion_exynos.so
 vendor/lib64/libsecnativefeature.so
 vendor/lib64/libSEF.quram.so
 vendor/lib64/libsensorlistener.so
 vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
+
+## EGL
+vendor/lib/egl/libGLES_mali.so
+vendor/lib/hw/gralloc.exynos9611.so
+vendor/lib/hw/hwcomposer.exynos9611.so
+vendor/lib/hw/memtrack.exynos9611.so
+vendor/lib/libacryl.so
+vendor/lib/libacryl_plugin_slsi_hdr10.so
+vendor/lib/libdrmresource.so
+vendor/lib/libexynosdisplay.so
+vendor/lib/libexynosgraphicbuffer.so
+vendor/lib/libExynosHWCService.so
+vendor/lib/libion_exynos.so
+vendor/lib64/egl/libGLES_mali.so
+vendor/lib64/hw/gralloc.exynos9611.so
+vendor/lib64/hw/hwcomposer.exynos9611.so
+vendor/lib64/hw/memtrack.exynos9611.so
+vendor/lib64/libacryl.so
+vendor/lib64/libacryl_plugin_slsi_hdr10.so
+vendor/lib64/libdrmresource.so
+vendor/lib64/libexynosdisplay.so
+vendor/lib64/libexynosgraphicbuffer.so
+vendor/lib64/libExynosHWCService.so
+vendor/lib64/libion_exynos.so
