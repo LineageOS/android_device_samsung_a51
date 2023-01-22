@@ -48,6 +48,8 @@ vendor/etc/gnss/gps.debug.cfg
 # vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 vendor/lib/libwrappergps.so
+vendor/lib64/hw/android.hardware.gnss@2.1-impl.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 vendor/lib64/libwrappergps.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 
