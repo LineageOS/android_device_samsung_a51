@@ -16,8 +16,12 @@
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/a51/device.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+## Inherit some common Lineage stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
 # Shipping API level
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_q.mk)
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Client-id base
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

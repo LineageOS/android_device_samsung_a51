@@ -17,7 +17,7 @@
 DEVICE_PATH := device/samsung/a51
 
 # Inherit common device configuration
-$(call inherit-product, device/samsung/universal9611-common/universal9611-common.mk)
+$(call inherit-product, device/samsung/universal9611-common/common.mk)
 # Inherit dalvik heap configs for 6GB device
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
