@@ -67,16 +67,16 @@ vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 
 ## V4L2 (FIMC-IS2) Firmware
-vendor/fimc_is_lib.bin
-vendor/fimc_is_rta.bin
-vendor/mfc_fw.bin
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta.bin
+vendor/firmware/mfc_fw.bin
 
 ## Camera Firmware
-vendor/setfile_gc5035.bin
-vendor/setfile_gc5035_macro.bin
-vendor/setfile_hi1336.bin
-vendor/setfile_imx582.bin
-vendor/setfile_imx616.bin
+vendor/firmware/setfile_gc5035.bin
+vendor/firmware/setfile_gc5035_macro.bin
+vendor/firmware/setfile_hi1336.bin
+vendor/firmware/setfile_imx582.bin
+vendor/firmware/setfile_imx616.bin
 
 ## Camera
 vendor/lib/hw/camera.exynos9611.so
