@@ -21,8 +21,8 @@ $(call inherit-product, device/samsung/universal9611-common/common.mk)
 # Inherit A51 blobs
 $(call inherit-product, vendor/samsung/a51/a51-vendor.mk)
 
-# Inherit dalvik heap configs for 6GB device
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+# Inherit dalvik heap configs for 4GB device
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
