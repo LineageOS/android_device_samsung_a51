@@ -54,7 +54,7 @@ vendor/lib64/libwrappergps.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 
 ## Fingerprint
-vendor/etc/init/fingerprint_common.rc
+# vendor/etc/init/fingerprint_common.rc
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
 vendor/lib/libegis_fp_normal_sensor_test.so
