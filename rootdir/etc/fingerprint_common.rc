@@ -32,8 +32,13 @@ on boot
     mkdir /data/vendor/misc/qti_fp/template 0770 system system
 
     mkdir /data/vendor/biometrics 0770 system system
-    mkdir /data/vendor/biometrics/fp 0700 system system
-    mkdir /data/vendor/biometrics/meta 0700 system system
+    mkdir /data/vendor/biometrics/ta 0770 system system
+    mkdir /data/vendor/biometrics/fp 0770 system system
+    mkdir /data/vendor/biometrics/meta 0770 system system
+    mkdir /data/vendor/biometrics/log 0770 system system
+    # Fix previous mistakes - set correct perms
+    chmod 0770 /data/vendor/biometrics/fp
+    chmod 0770 /data/vendor/biometrics/meta
     mkdir /data/vendor/fpSnrTest 0770 system system
     mkdir /efs/biometrics 0770 system system
     mkdir /efs/biometrics/meta 0770 system system
