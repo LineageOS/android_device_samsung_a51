@@ -110,7 +110,6 @@ vendor/lib64/libuniplugin.so
 vendor/lib/egl/libGLES_mali.so
 vendor/lib/hw/gralloc.exynos9611.so
 vendor/lib/hw/hwcomposer.exynos9611.so
-vendor/lib/hw/memtrack.exynos9611.so
 vendor/lib/libacryl.so
 vendor/lib/libacryl_plugin_slsi_hdr10.so
 vendor/lib/libdrmresource.so
@@ -121,7 +120,6 @@ vendor/lib/libion_exynos.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/hw/gralloc.exynos9611.so
 vendor/lib64/hw/hwcomposer.exynos9611.so
-vendor/lib64/hw/memtrack.exynos9611.so
 vendor/lib64/libacryl.so
 vendor/lib64/libacryl_plugin_slsi_hdr10.so
 vendor/lib64/libdrmresource.so
