@@ -357,12 +357,7 @@
         <item>319</item>
         <item>335</item>
         <item>351</item>
-        <item>367</item>
-        <item>383</item>
-        <item>399</item>
-        <item>415</item>
-        <item>431</item>
-        <item>447</item>
+        <item>365</item>
     </integer-array>
     <array name="config_screenBrightnessNits">
         <item>2</item>
@@ -627,11 +622,6 @@
         <item>525</item>
         <item>550</item>
         <item>575</item>
-        <item>600</item>
-        <item>625</item>
-        <item>650</item>
-        <item>675</item>
-        <item>700</item>
     </array>
 
      <bool name="config_automatic_brightness_available">true</bool>
