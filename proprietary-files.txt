@@ -42,9 +42,6 @@ vendor/tee/tui/resolution_common/ID00000100
 ## GPS
 vendor/bin/hw/gpsd
 vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
-vendor/etc/gnss/ca.pem
-vendor/etc/gnss/gps.cfg
-vendor/etc/gnss/gps.debug.cfg
 # vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 vendor/lib/libwrappergps.so
