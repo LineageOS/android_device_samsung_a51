@@ -32,5 +32,4 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Init.rc
 PRODUCT_PACKAGES += \
-    init.gps.rc \
     fingerprint_common.rc

@@ -1,12 +1,4 @@
 prebuilt_etc {
-   name: "init.gps.rc",
-   src: "etc/init.gps.rc",
-   filename_from_src: true,
-   sub_dir: "init",
-   vendor: true,
-}
-
-prebuilt_etc {
    name: "fingerprint_common.rc",
    src: "etc/fingerprint_common.rc",
    filename_from_src: true,
