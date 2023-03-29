@@ -3,6 +3,15 @@
     <string-array name="config_tether_usb_regexs">
         <item>rndis0</item>
     </string-array>
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+    <integer-array name="config_udfps_sensor_props" translatable="false" >
+        <item>540</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2070</item> <!-- <item>sensorLocationY</item> -->
+        <item>110</item>   <!-- <item>sensorRadius</item> -->
+    </integer-array>
+
+    <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
+    <integer name="config_udfps_illumination_transition_ms">0</integer>
 
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
