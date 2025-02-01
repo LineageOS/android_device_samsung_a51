@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3e0569a_3eeded9b",
+        "filename": "sepolicy/vendor/system_app.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-01T09:29:54Z",
+      "side": 1,
+      "message": "setprop grants getprop.",
+      "revId": "6a0064ae5c6c1050d91e05eb822a796803172900",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
