@@ -52,6 +52,24 @@
       "parentUuid": "d54c6a0d_620133a0",
       "revId": "6a0064ae5c6c1050d91e05eb822a796803172900",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fef8f740_baf472a5",
+        "filename": "sepolicy/vendor/system_app.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-02-01T10:53:02Z",
+      "side": 1,
+      "message": "like Add udfps handler and then fixup?",
+      "parentUuid": "6c33cf25_4b98a27c",
+      "revId": "6a0064ae5c6c1050d91e05eb822a796803172900",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
