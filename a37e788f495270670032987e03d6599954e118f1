@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b35f2aba_bd86ce11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-02-01T17:07:52Z",
+      "side": 1,
+      "message": "simply switch to hw/samsung fingerprint, like most of samsung devices does.",
+      "revId": "a37e788f495270670032987e03d6599954e118f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53d8bd65_5c6667b6",
