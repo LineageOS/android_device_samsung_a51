@@ -88,6 +88,24 @@
       "parentUuid": "fef8f740_baf472a5",
       "revId": "6a0064ae5c6c1050d91e05eb822a796803172900",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de44b775_73a3d0e3",
+        "filename": "sepolicy/vendor/system_app.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-02-01T11:10:33Z",
+      "side": 1,
+      "message": "merge part of fixup in udfps handler commit or you mean history before?",
+      "parentUuid": "4210e8d2_e579bd3b",
+      "revId": "6a0064ae5c6c1050d91e05eb822a796803172900",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
