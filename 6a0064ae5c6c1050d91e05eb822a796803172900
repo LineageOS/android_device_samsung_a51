@@ -70,6 +70,24 @@
       "parentUuid": "6c33cf25_4b98a27c",
       "revId": "6a0064ae5c6c1050d91e05eb822a796803172900",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4210e8d2_e579bd3b",
+        "filename": "sepolicy/vendor/system_app.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-01T11:01:54Z",
+      "side": 1,
+      "message": "fixup is the fixup. When you add the udfps handler app and you need to allow fps l to read/set the prop, it\u0027s proper to do that in the same change.",
+      "parentUuid": "fef8f740_baf472a5",
+      "revId": "6a0064ae5c6c1050d91e05eb822a796803172900",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
