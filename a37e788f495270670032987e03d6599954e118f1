@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53d8bd65_5c6667b6",
+        "filename": "fingerprint/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-02-01T16:30:06Z",
+      "side": 1,
+      "message": "```suggestion\n    cflags: [\n        \"-DLOG_TAG\u003d\\\"android.hardware.biometrics.fingerprint@2.3-service-samsung.a51\\\"\",\n    ] + select(soong_config_variable(\"samsunga51\", \"notify_on_cancel\"), {\n        \"true\": [\"-DCALL_NOTIFY_ON_CANCEL\"],\n        default: [\"-\"],\n    }) + select(soong_config_variable(\"samsunga51\", \"prercentage_samples\"), {\n        \"true\": [\"-DUSES_PERCENTAGE_SAMPLES\"],\n        default: [],\n    }) + select(soong_config_variable(\"samsunga51\", \"has_fingerprint_gestures\"), {\n        \"true\": [\"-DHAS_FINGERPRINT_GESTURES\"],\n        default: [],\n    }) + select(soong_config_variable(\"samsunga51\", \"request_force_calibrate\"), {\n        \"true\": [\"-DREQUEST_FORCE_CALIBRATE\"],\n        default: [],\n    }),\n```\n\nBeside, can\u0027t you just set whatever your device uses instead of conditionals in-tree ?",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 6
+      },
+      "revId": "a37e788f495270670032987e03d6599954e118f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
