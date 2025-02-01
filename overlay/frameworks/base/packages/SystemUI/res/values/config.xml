@@ -3,4 +3,6 @@
     <dimen name="status_bar_padding_start">10px</dimen>
     <dimen name="status_bar_padding_end">10px</dimen>
     <dimen name="status_bar_padding_top">15px</dimen>
+
+    <color name="config_udfpsColor">#00ff50</color>
 </resources>
