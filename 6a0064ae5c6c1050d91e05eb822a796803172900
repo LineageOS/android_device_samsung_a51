@@ -34,6 +34,24 @@
       "parentUuid": "f3e0569a_3eeded9b",
       "revId": "6a0064ae5c6c1050d91e05eb822a796803172900",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c33cf25_4b98a27c",
+        "filename": "sepolicy/vendor/system_app.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-01T10:40:26Z",
+      "side": 1,
+      "message": "That SamsungUdfpsHandler app that is being added in the follow-up change. The chain should be redone, tho.",
+      "parentUuid": "d54c6a0d_620133a0",
+      "revId": "6a0064ae5c6c1050d91e05eb822a796803172900",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
