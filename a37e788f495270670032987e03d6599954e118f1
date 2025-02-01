@@ -22,6 +22,30 @@
       },
       "revId": "a37e788f495270670032987e03d6599954e118f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d4959d2_56163d16",
+        "filename": "fingerprint/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-02-01T16:38:04Z",
+      "side": 1,
+      "message": "This HAL based on HIDL from hardware/samsung, all of it are unused except dlog_tag",
+      "parentUuid": "53d8bd65_5c6667b6",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 6
+      },
+      "revId": "a37e788f495270670032987e03d6599954e118f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
