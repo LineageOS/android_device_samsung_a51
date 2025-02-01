@@ -1,0 +1,2 @@
+# UDFPS
+set_prop(system_app, vendor_udfps_prop)
